@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Imane Shop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>¬|
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    ImaneShop
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parcourir les catégories
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="Parcourir les catégories">
+                            <li>
+                                <a id="toutesCategorie">Toutes</a>
+                            </li>
+                            <li>
+                                <a id="highTechCategorie">High-Tech et Informatique</a>
+                            </li>
+                            <li>
+                                <a id="jouetsCategorie">Jouets, Enfants et Bébés</a>
+                            </li>
+                            <li>
+                                <a id="maisonCategorie">Maison</a>
+                            </li>
+                            <li>
+                                <a id="sportsCategorie">Sports et Loisirs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="inscription.html">Inscription</a>
+                    </li>
+                    <li>
+                        <a href="se-connecter.html">Se connecter</a>
+                    </li>
+                    <li>
+                        <a href="contactez-nous.html">Contactez-nous</a>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-default">Rechercher</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/produits/banner1.jpg" alt="Los Angeles">
+                </div>
+    
+                <div class="item">
+                    <img src="images/produits/banner2.jpg" alt="Los Angeles">
+                </div>
+    
+                <div class="item">
+                    <img src="images/produits/banner3.jpg" alt="Los Angeles">
+                </div>
+    
+                <div class="item">
+                    <img src="images/produits/banner4.jpg" alt="Los Angeles">
+                </div>
+    
+            </div>
+    
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Précédent</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Suivant</span>
+            </a>
+        </div>
+        
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contactez nous
+                    <small>Un service client à votre écoute !</small>
+                </h1>
+                <p>Des informations sur la boutique ? Sur nos produits ? Suivi de votre commande ? Déposer une réclamation ?</p>
+                <p>Nous sommes là pour vous aider ! T’chat, email, réseaux sociaux, téléphone… Contactez-nous à tout moment,
+                    nous vous répondrons avec plaisir.</p>
+
+                <div class="col-sm-6">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#site">
+                                <span class="glyphicon glyphicon-info-sign"></span>
+                                Sur notre site
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#telephone">
+                                <span class="glyphicon glyphicon-earphone"></span>
+                                Par téléphone
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#reseaux">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                Sur les réseaux sociaux
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="site" class="tab-pane fade in active">
+                            <h3>Nous contacter</h3>
+                            <p>Pour mieux traiter votre demande, merci de compléter les informations suivantes :</p>
+
+                            <form class="form-horizontal">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Nom</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" required="true" placeholder="Nom">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Prénom</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" required="true" placeholder="Prénom">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" required="true" placeholder="Email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Votre question</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="5" id="comment" required="true"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">Envoyer</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <div id="telephone" class="tab-pane fade">
+                            <h3>Nous contacter par téléphone</h3>
+                            <p>
+                                Nous pouvez joindre notre service client du lundi au samedi, de 8h à 20h au +212 5 37 00 00 00, ce service vous sera facturé
+                                0,60 DH TTC la minute + prix appel. Nos conseillers sont à votre disposition pour répondre
+                                à toutes vos questions concernant : Un problème de livraison Une replanification de livraison
+                                une question sur nos offres
+                            </p>
+                        </div>
+                        <div id="reseaux" class="tab-pane fade">
+                            <h3>Nous contacter sur les réseaux sociaux</h3>
+                            <p>Imane Shop assure une présence sur les réseaux sociaux afin de pouvoir vous apporter une solution
+                                le plus rapidement possible. Retrouvez nous sur Twitter ! Connectez-vous sur votre compte
+                                Twitter et suivez notre compte @ImaneShop. Envoyez-nous ensuite le problème rencontré en
+                                direct message. Nos conseillers sont à votre entière disposition.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5058.116876645059!2d-6.8843810389964855!3d33.96713327554757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d297e99804b%3A0x5aeb967cde75677a!2sInstitute+Specialized+Technology+Appliqu%C3%A9e!5e0!3m2!1sen!2sfr!4v1518433348738"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-blurb">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-6 footer-blurb-item">
+                        <h3>
+                            <span class="glyphicon glyphicon-cloud-upload"></span> Produits les plus commandés</h3>
+
+
+                        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/produits/sport1.jpg" alt="">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/produits/maison1.jpg" alt="">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/produits/highTech1.jpg" alt="">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/produits/jouet1.jpg" alt="">
+                                </div>
+
+                            </div>
+
+                            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Précédent</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Suivant</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 footer-blurb-item center">
+                        <h3>
+                            <span class="glyphicon glyphicon-fire"></span> Le nombre de visiteurs
+                            <a href="http://www.mon-compteur.fr">
+                                <img src="http://www.mon-compteur.fr/html_c01genv2-208682-1" border="0" />
+                            </a>
+                        </h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="small-print">
+            <div class="container">
+                <p>Ce mini projet E-SHOP est développé par Imane LEHDIOUI</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
